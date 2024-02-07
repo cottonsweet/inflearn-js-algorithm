@@ -11,8 +11,21 @@
 3. 자바스크립트에서 배열은 Array 객체로 다뤄집니다.
 ```
 
+---
+
 ```js
 const arr = [element1, element2, ...]; // 배열 리터럴을 이용하는 방법
 const arr = Array(element1, element2) // Array 객체의 생성자를 이용하는 방법
 const arr = new Array(element1, element2) // new 연산자를 이용한 Array 객체 생성
+```
+
+---
+
+```
+배열에서 사용되는 메서드는 무궁무진하기 때문에
+전부다 외울필요는 없으며, 상황에 맞게끔 사용하면 된다.
+
+또한 자주 사용되는 메서드는 기본적으로 이해하고 사용하는걸 추천한다.
+
+forEach, map, filter, splice, slice, spread 등등
 ```
