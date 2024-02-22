@@ -39,9 +39,9 @@ solution 함수를 완성하세요.
 function solution(list) {
   const agree = [];
   for (let i = 0; i < list.length; i++) {
-    list[i] === 1 ? list.push("Yes") : agree.push("No");
+    list[i] === 1 ? agree.push("Yes") : agree.push("No");
   }
-  return list;
+  return agree;
 }
 
 solution([1, 0, 0, 1]); // ["Yes", "No", "No", "Yes]
